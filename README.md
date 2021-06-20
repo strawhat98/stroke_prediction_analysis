@@ -2,9 +2,9 @@
 
 Effects of a stroke depend on several factors, including daily routine of a person, his or her environmental factor, stress level which depends upon professional and personal life, Eating habits and many other catalysts. Medical science says stroke is not only stress induced bodily behaviour but also can genetically propagate maong generations of people in their family. So, to determine how stroke can be predicted based on typical characteristics of human life, this prediction analysis has been completed using different predictive modelling(Random Classifier Model, Logistic Regression Model, Naive-Bayes, KNN- Classifier,etc.) to generate efficient outcome for future prupose.
 
-/*
- -:OBJECTIVE:-
-    • The Stroke Prediction Model has been designed to predict if a person with standard health conditions can be a victim of stroke in his or her future or not.
+
+# -:OBJECTIVE:-
+   • The Stroke Prediction Model has been designed to predict if a person with standard health conditions can be a victim of stroke in his or her future or not.
       To create a model that will employ some machine learning algorithms provided by the libraries of programming language ‘python’. 
       
    • To choose a target function and a suitable experience for creating the model.
@@ -13,15 +13,26 @@ Effects of a stroke depend on several factors, including daily routine of a pers
       
    • To apply different model upon the data for gathering precision and recall value.Feature selection using rapper method on data and through ensemble learning calculating accuracy on prediction.
     
--:SCOPE:-
+# -:SCOPE:-
    • This model will help predict health condition of person with standard life style parameters .
       
    •  The model, if used, will help avoid the trouble of future risk of a person for stroke and what kind of lifestyle a person should lead.
       
    • The model will learn from each experience and increase its accuracy on its own without any alteration or intervention by a programmer.
+   
+## Prerequisites:
+- Dataset
+- Jupyter Notebook
+- pip (python 3)
 
+## pip libraries to use:
+1. seaborn
+2. pandas
+3. Matplotlib
+4. Numpy
+5. Scikit Learn
 
-Attribute Information:-
+# Dataset Attribute Information (Source - Kaggle platform):
 1) id: unique identifier
 2) gender: "Male", "Female" or "Other"
 3) age: age of the patient
@@ -35,11 +46,16 @@ Attribute Information:-
 11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
 12) stroke: 1 if the patient had a stroke or 0 if not.
 
-Sample Dateset:-
+### Sample Dateset:-
 
 ![image](https://user-images.githubusercontent.com/39863708/122547801-2fa06780-d04e-11eb-98a7-21ff2b023fbf.png)
 
-Exploratory data analysis:
+# WorkFlow:-
+
+![image](https://user-images.githubusercontent.com/39863708/122674737-1507f300-d1f4-11eb-90c8-145686a48452.png)
+
+
+# Exploratory data analysis:
 
 
 a) at first for each attribute present in the dataset, unique values are checked upon the total value present actually.
